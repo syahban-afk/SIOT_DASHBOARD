@@ -1,9 +1,9 @@
 const mqttClient = {
     client: null,
-    server: 'server mu masseh',
-    username: 'username mu mas',
-    password: 'pw jan lupa ya',
-    clientId: 'ini mah bebas bae',
+    server: window.MQTT_CONFIG.server,
+    username: window.MQTT_CONFIG.username,
+    password: window.MQTT_CONFIG.password,
+    clientId: window.MQTT_CONFIG.clientId,
 
     connect: function () {
         const options = {

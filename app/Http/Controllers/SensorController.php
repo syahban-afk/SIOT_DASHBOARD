@@ -20,6 +20,12 @@ class SensorController extends Controller
         return view('sensor', [
             'temperature' => $latestTemperature ? $latestTemperature->value : null,
             'humidity' => $latestHumidity ? $latestHumidity->value : null,
+            'mqttConfig' => [
+                'server' => env('MQTT_SERVER'),
+                'username' => env('MQTT_USERNAME'),
+                'password' => env('MQTT_PASSWORD'),
+                'clientId' => env('MQTT_CLIENT_ID'),
+            ],
         ]);
     }
 
