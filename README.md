@@ -1,7 +1,7 @@
 ## About This Project
 
 untuk simulasi pada ESP 32 dapat di lihat pada link berikut ini:
-<p align="center"><a href="https://wokwi.com/projects/432840239848984577" target="_blank"></a></p>
+https://wokwi.com/projects/432840239848984577
 
 jangan lupa untuk mengganti:
 
